@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <!-- 弹出框 -->
+    <!-- 弹出框--列表 -->
     <div id="nav">
         <span>首页</span>
         <span>博客</span>
@@ -21,6 +21,21 @@
         <span>留言板</span>
         <span>照片墙</span>
     </div>
+    <!-- 弹出框--信息 -->
+    <div id="message">
+        <div class="message-head">
+            <h3>温馨提示：</h3>
+            <span id="message-close"><i class="fa fa-times-circle"></i></span>
+        </div>
+        <hr>
+        <div class="message-main">
+            <p>该功能暂时未开放！！！</p>
+            <p>提示：点击 logo 跳出列表！</p>
+            <p>提示：点击 列表 跳出弹窗！</p>
+            <p>提示：点击 搜索 跳出弹窗！</p>
+            <div id="message-submit">确认</div>
+        </div>
+    </div>
     <!-- 头部导航栏 -->
     <div class="head-container">
         <div class="head-left" id="logo">
@@ -28,7 +43,7 @@
             <p>qianliduxing</p>
         </div>
         <div class="head-center">
-            <ul>
+            <ul id="head-nav">
                 <li>首页</li>
                 <li>博客</li>
                 <li>联系我</li>
@@ -38,7 +53,7 @@
             </ul>
         </div>
         <div class="head-right">
-            <a href=""><i class="fa fa-search"></i></a>
+            <span id="head-search"><i class="fa fa-search"></i></span>
             <input type="text" placeholder="搜索">
         </div>
     </div>
